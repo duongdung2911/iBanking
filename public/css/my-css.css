@@ -1,0 +1,16 @@
+
+#login {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+#login form {
+	padding: 2em;
+	margin-top: 6em;
+	display: flex;
+	flex-direction: column;
+}
+#login input {
+	margin-bottom: 1.5em;
+}

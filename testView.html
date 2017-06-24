@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iBanking</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- <link rel="stylesheet" href="public/css/my-css.css"> -->
+	<link rel="stylesheet" href="public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/css/font-awesome.min.css">
+	<link href="public/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="public/css/datepicker.css" rel="stylesheet" />
+	<style type="text/css">
+		#login {
+			border: 1px solid #333;
+			border-radius: 5px;
+			width: 30%;
+			margin: 6em auto;
+			padding: 0 2em 2em;
+		}
+		#login form {
+			
+			display: flex;
+			flex-direction: column;
+		}
+		#login h3 {
+			text-align: center;
+			margin-top: 1em;
+		}
+		.title {
+			font-weight: bold;
+		}
+		table {
+			width: 100%;
+		}
+		.views {
+			padding: 5em 10em;
+		}
+		.views h1{
+			text-align: center;
+		}
+		.views form table tbody {
+			width: 80%;
+			display: flex;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="login" style="width: 35%">
+		<h3 style='margin-bottom: 2em'>Giao dịch chuyển khoản</h3>
+		<form action='#' method='POST' accept-charset="utf-8" >
+			<table>
+				<tbody>
+					<tr>
+						<td style="width: 20em">Tài khoản chuyển: </td>
+						<td>
+							12312312313123123
+						</td>
+					</tr>
+					<tr>
+						<td>Số dư: </td>
+						<td>
+							ádasdasdsadasdasd
+						</td>
+					</tr>
+					<tr>
+						<td>Tài khoản nhận: </td>
+						<td>
+							<input type="submit" name="txtAccount" value="" class="btn btn-default" style="width: 15em">
+						</td>
+					</tr>
+					<tr>
+						<td>Chủ tài khoản: </td>
+						<td>
+							ádasdasd
+						</td>
+					</tr>
+					<tr>
+						<td>Số tiền: </td>
+						<td>
+							<input type="submit" name="txtAmount" value="" class="btn btn-default" style="width: 15em">
+						</td>
+					</tr>
+					<tr>
+						<td>Nội dung: </td>
+						<td>
+							<input type="submit" name="txtContent" value="" class="btn btn-default" style="width: 15em">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" name="action" value="view" class="btn btn-default" style="margin-top: 1.5em;">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+		<a href="indexPage.php" style="float: left;">Back</a>
+		<a href="logoutPage.php" style="float: right;">LogOut</a>
+	</div>
+
+</body>
+<script src="public/js/jquery-3.1.0.min.js"></script>
+<script src="public/js/my-js.js"></script>
+<script src="public/js/bootstrap-datepicker.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="public/js/bootstrap.min.js"></script>
+<script src="public/js/bootstrap-datepicker.js"></script>
+</html>
